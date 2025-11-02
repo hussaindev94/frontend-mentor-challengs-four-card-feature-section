@@ -1,0 +1,25 @@
+/*This file will contain the fonts using @font-face rule*/
+
+/*Exra light font*/
+@font-face {
+  font-family: "Poppins-extralight";
+  src: url("../assets/fonts/Poppins-ExtraLight.ttf");
+  font-weight: 200;
+  font-display: swap;
+}
+
+/*Regular font*/
+@font-face {
+  font-family: "Poppins-regular";
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+/*Semi bold font*/
+@font-face {
+  font-family: "Poppins-semiblod";
+  src: url("../assets/fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
+  font-display: swap;
+}

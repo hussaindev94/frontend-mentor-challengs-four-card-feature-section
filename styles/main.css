@@ -5,7 +5,7 @@
   --primary-color-red: hsl(0, 78%, 62%);
   --primary-color-cyan: hsl(180, 62%, 55%);
   --primary-color-orange: hsl(34, 97%, 64%);
-  --primary-color-blue:hsl(212, 86%, 64%);
+  --primary-color-blue: hsl(212, 86%, 64%);
   /*neutral*/
   --neutral-color-gray-500: hsl(234, 12%, 34%);
   --neutral-color-gray-400: hsl(212, 6%, 44%);
@@ -54,4 +54,23 @@
   --spacing-300: 2.4rem;
   --spacing-200: 1.6rem;
   --spacing-100: 0.8rem;
+}
+/*Note: All the cards have the same styles, so I give them the same classes in order to traget them once in the CSS file and following the DRY concept*/
+
+/*body styles*/
+body {
+  background: var(--neutral-color-white);
+  border: 2px solid black;
+}
+
+/*footer styles*/
+footer {
+  border: 2px solid red;
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 }

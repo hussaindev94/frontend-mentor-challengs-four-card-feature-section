@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="styles/fonts.css">
   <!-- Main styles -->
    <link rel="stylesheet" href="./styles/main.css">
+   <!-- Media Query Styles -->
+    <link rel="stylesheet" href="./styles/mediaqueries.css">
 
   <title>Frontend Mentor | Four card feature section</title>
 
@@ -36,59 +38,51 @@
   </header>
 
   <main class="main">
-    <!-- Supervisor section -->
-    <section class="section section1">
-      <div class="card-wrapper">
-        <article class="card-article">
-            <h2 class="card-title">
-              Supervisor
-            </h2>
-            <p class="card-info">
-              Monitors activity to identify project roadblocks
-            </p>
-        </article>
-        <img class="card-image" src="./assets/images/icon-supervisor.svg" alt="Supervisor icon" width="32" height="32">
-      </div>
+    <!-- Supervisor -->
+    <section class="card-wrapper" color-type="cyne">
+      <article class="card">
+        <div class="card-content">
+          <h2 class="card-title">Supervisor</h2>
+          <p class="card-info">Monitors activity to identify project roadblocks</p>
+        </div>
+        <img class="card-image" src="./assets/images/icon-supervisor.svg" alt="" aria-hidden="true" width="32" height="32">
+      </article>
     </section>
-    <!-- Team builder & karma section -->
-    <section class="section section2">
-      <div class="card1 card-wrapper">
-        <article class="card-article">
-          <h2 class="card-title">
-            Team Builder
-          </h2>
-          <p class="card-info">
-            Scans our talent network to create the optimal team for your project
-          </p>
-        </article>
-        <img class="card-image" src="./assets/images/icon-team-builder.svg" alt="Supervisor icon" width="32" height="32">
-      </div>
-      <div class="card2 card-wrapper">
-        <article class="card-article">
-          <h2 class="card-title">
-            Karma
-          </h2>
-          <p class="card-info">
-            Regularly evaluates our talent to ensure quality
-          </p>
-        </article>
-        <img class="card-image" src="./assets/images/icon-karma.svg" alt="Supervisor icon" width="32" height="32">
-      </div>
+    <!-- The middle part the changes between different layout -->
+    <!-- Team Builder -->
+    <section class="card-wrapper" color-type="red">
+      <article class="card">
+        <div class="card-content">
+          <h2 class="card-title">Team Builder</h2>
+          <p class="card-info">Scans our talent network to create the optimal team for your project</p>
+        </div>
+        <img class="card-image" src="./assets/images/icon-team-builder.svg" alt="" aria-hidden="true" width="32" height="32">
+      </article>
     </section>
-    <!-- Calculater section -->
-    <section class="section section3">
-      <div class="card-wrapper">
-        <article class="card-article">
-            <h2 class="card-title">
-              Calculator
-            </h2>
-            <p class="card-info">
-              om past projects to provide better delivery estUses data frimates
-            </p>
-        </article>
-        <img class="card-image" src="./assets/images/icon-calculator.svg" alt="Supervisor icon" width="32" height="32">
-      </div>
+
+    <!-- Karma -->
+    <section class="card-wrapper" color-type="orange">
+      <article class="card">
+        <div class="card-content">
+          <h2 class="card-title">Karma</h2>
+          <p class="card-info">Regularly evaluates our talent to ensure quality</p>
+        </div>
+        <img class="card-image" src="./assets/images/icon-karma.svg" alt="" aria-hidden="true" width="32"
+          height="32">
+      </article>
     </section>
+
+    <!-- Calculator -->
+      <section class="card-wrapper" color-type="blue">
+        <article class="card">
+          <div class="card-content">
+            <h2 class="card-title">Calculator</h2>
+            <p class="card-info">Uses data from past projects to provide better delivery</p>
+          </div>
+          <img class="card-image" src="./assets/images/icon-calculator.svg" alt="" aria-hidden="true" width="32"
+            height="32">
+        </article>
+      </section>
   </main>
   <!-- Footer section -->
   <footer>
@@ -98,4 +92,3 @@
     </p>
   </footer>
 </body>
-</html>

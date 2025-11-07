@@ -1,7 +1,38 @@
 /*Media queries*/
 /*Tablet*/
 @media (min-width: 48rem) {
+  body {
+    padding: 8rem 5.4rem;
+    gap: 7.4rem;
+    /*Header Styles*/
+    .header {
+      width: 54rem;
+      /*Header title style*/
+      .header-title {
+        font-size: 3.6rem;
+        letter-spacing: 0.025rem;
+      }
+    }
+    
+    /*Main Styles*/
+    .main {
+      .mid-part {
+        flex-direction: row;
+      }
+    }
+  }
 }
 /*Desktop*/
 @media (min-width: 68rem) {
+  body {
+    padding: 10.2rem 16.3rem 16.3rem 16.3rem;
+
+    .main {
+      flex-direction: row;
+
+      .mid-part {
+        flex-direction: column;
+      }
+    }
+  }
 }

@@ -62,6 +62,7 @@ html {
 }
 /*body styles*/
 body {
+  overflow-x: hidden;
   background: var(--neutral-color-white);
   padding: 5.6rem 3rem 4.6rem 2.6rem;
 
@@ -83,7 +84,6 @@ body {
 
     /*Header title style*/
     .header-title {
-      align-self: stretch;
       color: var(--neutral-color-gray-500);
       text-align: center;
       font-family: var(--text-preset-2);
@@ -93,6 +93,7 @@ body {
       line-height: var(--text-preset-2-line-height);
       letter-spacing: 0.0104rem;
       & span {
+        align-self: stretch;
         font-family: var(--text-preset-1);
         font-weight: 600;
         line-height: var(--text-preset-1-line-height);
@@ -104,7 +105,7 @@ body {
       color: var(--neutral-color-gray-500);
       text-align: center;
       font-family: var(--text-preset-4);
-      font-size: var(--text-preset-4-font-size);
+      font-size: 1.5rem;
       font-style: normal;
       font-weight: 400;
       line-height: var(--text-preset-4-line-height);
@@ -132,6 +133,12 @@ body {
     }
     .card-wrapper[color-type="blue"] {
       border-top: 4px solid var(--primary-color-blue);
+    }
+    /*mid column section*/
+    .mid-part {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-400);
     }
 
     /* Common Card Styles*/
@@ -187,8 +194,7 @@ body {
 /*footer styles*/
 footer {
   align-self: stretch;
-
-  border: 2px solid red;
+  
   .attribution {
     font-size: 11px;
     text-align: center;
